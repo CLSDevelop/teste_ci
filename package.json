@@ -1,0 +1,35 @@
+{
+  "name": "teste_ci",
+  "version": "1.0.0",
+  "description": "Repositórios para teste",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-github": "^3.4.1",
+    "flow-bin": "^0.123.0",
+    "graphql": "^15.0.0"
+  },
+  "eslintConfig": {
+    "plugins": [
+      "github"
+    ],
+    "extends": [
+      "plugin:github/recommended"
+    ]
+  },
+  "scripts": {
+    "lint": "eslint \"./**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLSDevelop/teste_ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLSDevelop/teste_ci/issues"
+  },
+  "homepage": "https://github.com/CLSDevelop/teste_ci#readme"
+}
